@@ -11,7 +11,7 @@ class Rectangle(Shape):
     def __init__(self, w, h):
         super().__init__(w, h)
     def perimeter(self):
-        print(2*self.width+self.height)
+        print(2*(self.width+self.height))
 
 w = int(input())
 h = int(input())
